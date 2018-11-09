@@ -1,0 +1,17 @@
+package com.biz.var;
+
+public class Variable04 {
+
+	public static void main(String[] args) {
+		
+		int intNum1; // 변수 선언부
+		intNum1 = 0; // 초기화, clear
+
+		int intNum2;
+		intNum2 = 0; // clear과정이 생략된 것 과 같다
+		intNum2 = 30;
+		
+		int intNum3 = 50;
+	}
+
+}

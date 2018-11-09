@@ -1,0 +1,28 @@
+package com.biz.console;
+
+public class Print01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//print** 키워드는 일반적으로 무엇인가 정보를 보여주는 용도이다.
+		//이는 컴퓨터에서 외부장치(모니터, 프린터등)에 데이터, 정보를 출력하는 키워드이다.
+		System.out.println();
+		System.out.println("Hello");
+		System.out.println(30);
+		System.out.println(30+30);
+		
+		//()를 사용해서 어떤 것을 처리하라고 명령을 내릴 때 ()안에 넣어주는 것들을 argument(s)라고 한다.
+		System.out.print("");	// null, Nothing 이라고 표현(아무것도 아님으로)
+		System.out.print(30);
+		System.out.print("Hello");
+		System.out.print(30+30);
+		
+		/*
+		 * println() : 라인의 내용을 출력해라. 공백시 공백한줄 표시
+		 * print() : ()안에 어떤내용이든지 들어가야 함. (공백x)
+		 * print(f) : 
+		 */
+	}
+
+}

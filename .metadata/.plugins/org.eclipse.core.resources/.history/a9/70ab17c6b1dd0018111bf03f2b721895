@@ -1,0 +1,12 @@
+
+public class CharTypeUnicode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch1 = 'Çæ';
+		char ch2 = 'È®';
+		System.out.println(ch1 +""+ch2);
+
+	}
+
+}

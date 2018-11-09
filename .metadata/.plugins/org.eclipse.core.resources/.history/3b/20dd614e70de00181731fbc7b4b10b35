@@ -1,0 +1,12 @@
+
+public class PrintTest01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Println(), Print(), printf() 세가지 방법으로 구구단을 완성하라.
+		System.out.println("2 x 1 = " + (2*1));
+
+	}
+
+}

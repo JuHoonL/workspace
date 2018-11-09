@@ -1,0 +1,17 @@
+package com.biz.num;
+
+public class MaxMinNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 숫자 방식에 따라 도대체 얼마나 작은 수부터 얼마나 큰 수까지 표현 또는 저장 할 수 있는가?
+		// 정수  : Int(Integer)
+		System.out.println(Integer.MIN_VALUE);
+		/*
+		 * 첫글자가 소문자인 키워드의 경우 공백을 기준으로 나열
+		 * 첫글자가 대문자인 키워드의 경우 .을 기준으로 나열
+		 */
+	}
+
+}

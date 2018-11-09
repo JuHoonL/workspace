@@ -1,0 +1,12 @@
+package com.biz.var;
+
+public class Variable04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int intNum1; // 변수 선언부
+		intNum1 = 0;
+
+	}
+
+}

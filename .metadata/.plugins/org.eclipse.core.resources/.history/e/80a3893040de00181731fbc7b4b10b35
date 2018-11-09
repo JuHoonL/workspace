@@ -1,0 +1,13 @@
+package com.biz.num;
+
+ // "지금부터 자바 클래스가 시작된다" 라는 선언문이 문법에 맞도록 작성이 되었으면 javac는 컴파일 과정을 수행해서 Integer01.class라는 byte파일을 생성한다.
+
+public class Integers01 {
+	// ...~ main ~.. : "지금부터 여기 나열된 명령문들을 실행하라" 라는 선언문 (main + ctrl spacebar)
+	public static void main(String[] args) {
+		System.out.println("Hello");	//Hello라는 글자를 보여라
+		System.out.println(30+40);		//30+40 한 결과를 보여라
+		System.out.println(1000);		//숫자1000을 보여라
+		System.out.println(1000000000);	//9999999999까지만 표시되므로 9999999999를 넘어가는 수는 오류가 남
+	}		
+}

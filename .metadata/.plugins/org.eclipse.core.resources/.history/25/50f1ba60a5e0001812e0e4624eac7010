@@ -1,0 +1,22 @@
+package com.biz.var;
+
+public class Variable06 {
+
+	public static void main(String[] args) {
+
+		int intNum1 = 0;
+		int intSum = 0;
+		
+		intNum1 = intNum1 + 1;
+		intNum1 += 1; // Num1의 값이 2가 됌.
+		intSum += intNum1; // intSum = intSum + intNum1과 같다
+		
+		intNum1 += 1;
+		intSum += intNum1;
+		
+		// 특별히 += 1 일때는 
+		intNum1 ++;
+		intSum += intNum1;
+	}
+
+}
